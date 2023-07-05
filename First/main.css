@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&family=Martian+Mono:wght@100;200&family=Quicksand:wght@300&family=Rajdhani:wght@300;400;500&display=swap');
+
+:root {
+    --font-1: 'Quicksand', sans-serif;
+    --font-2: 'Josefin Sans', sans-serif;
+    --font-3: 'Martian Mono', monospace;
+    --font-4: 'Rajdhani', sans-serif; 
+}
+
+
+body {
+    text-align: justify;
+    background-image: linear-gradient(to bottom, #9AEBA3, #45C4B0, #13678A);
+    background-attachment: fixed;
+    font-family: var(--font-4);  
+    width: 1000px;
+    margin: auto;
+}
+
+#formulario {
+    text-align: center;
+}
+
+#formulario > form > fieldset > 
+
+#botao{ 
+    text-align: center;
+    margin-top: 10px;
+    font-family: var(--font-4);
+}
+
+#foto {
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+
+#perguntaEmail {
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+    background-color: #009780;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    
+}
+
+h1 {
+    color: #023535;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    color: #023535;
+    font-size: 2em;
+}
+
+a {
+    padding: 7px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+label {
+    font-family: var(--font-4);
+    font-size: 1.5em;
+}
+
+a:hover {
+    color: #042736;
+}
+
+nav {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    transition-duration: .5s;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+nav > a:hover {
+    color: #389f90;
+}  
+
+p {
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+#formulario {
+    background-color: #009780;
+    border-radius: 10px;
+    padding: 5px 10px 1px 10px;
+    margin-top: 10px;
+}
+
+legend {
+    font-size: 1.5em;
+}
+
+p#introducao {
+    color: white;
+    background-color:#009780;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+footer {
+    background-color: #042736;
+}
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+abbr {
+    text-decoration: none;
+    font-weight: bold;
+}
